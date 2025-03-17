@@ -1,9 +1,18 @@
+# Web framework
 Flask==2.2.3
-MarkupSafe==2.1.2
 Werkzeug==2.2.3
+MarkupSafe==2.1.2
 itsdangerous==2.1.2
-psutil==5.8.0
-plotly==5.5.0
-tenacity==8.0.1
-boto3==1.9.148
-kubernetes==10.0.1
+
+# System monitoring
+psutil==5.9.0  # Updated to the latest stable version
+
+# Data visualization
+plotly==5.15.0  # Updated to the latest stable version
+tenacity==8.2.2  # Updated to the latest stable version
+
+# AWS SDK for Python
+boto3==1.34.63  # Updated to the latest stable version
+
+# Kubernetes Python client
+kubernetes==27.2.0  # Updated to the latest stable version
